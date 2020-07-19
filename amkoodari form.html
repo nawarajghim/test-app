@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://domain/receive.aspx" method="get">
+    <fieldset>
+        <label>First name:
+        <input type="text" name="name" maxlength="20" required="required"/>
+        </label>
+        <br>
+        <label>Email:
+            <input type="text" name="email" maxlength="30" required="required"/></label>
+            <br>
+            <label>Password:
+                <input type="password" name="password" maxlength="20" required="required"/>
+            </label>
+            <br>
+            <label>Age:
+                <input type="text" name="age" maxlength="2"/>
+            </label>
+            <br>
+            <label>Gender:
+                <input type="radio" name="gender" value="male"/>
+            </label>male
+            <input type="radio" name="gender" value="female"/>
+        </label>female
+        <input type="radio" name="gender" value="other"/>
+    </label>other
+    <br>
+    <label>Country:
+        <select name="country">
+            <option value="fi">Finland</option>
+            <option value="ca">Canada</option>
+            <option value="np">Nepal</option>
+            <option value="ir">Iran</option>
+            <option value="de">Germany</option>
+        </select>
+    </label>
+    <br>
+    <label>Favorite Color:
+        <input type="checkbox" name="color" value="green"/>Green
+        <input type="checkbox" name="color" value="red"/> Red 
+        <input type="checkbox" name="color" value="blue"/>Blue
+        <input type="checkbox" name="color" value="white"/>White
+        <input type="checkbox" name="color" value="yellow"/>Yellow
+  </label>
+  <br>
+
+  <label>About:
+      <br>
+      
+      <textarea name="comments" cols="10" rows="5">write more about yourself</textarea>
+  </label>
+  <br>
+      <input type="submit" value="Submit">
+
+    </fieldset>
+    </form>
+</body>
+</html>
